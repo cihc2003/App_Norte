@@ -1,0 +1,19 @@
+# Base de datos para desarrollo: todos usan la misma versión de PostgreSQL (riesgo 9).
+# Uso: copiar .env.example a .env y ejecutar `docker compose up -d`.
+services:
+  postgres:
+    image: postgres:18
+    container_name: norte-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      # Desde PostgreSQL 18 los datos viven bajo /var/lib/postgresql.
+      - norte-datos:/var/lib/postgresql
+
+volumes:
+  norte-datos:

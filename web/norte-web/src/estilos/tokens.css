@@ -1,0 +1,25 @@
+/* Tokens de diseño tomados del prototipo presentado al profesor. Usen solo estas variables. */
+:root {
+  --color-tinta: #14213d;
+  --color-papel: #f7f5f0;
+  --color-papel-tenue: #eeebe3;
+  --color-verde: #3e7c59;
+  --color-verde-tenue: #e7efe9;
+  --color-oxido: #b54a2e;
+  --color-oxido-tenue: #f5e5df;
+  --color-ambar: #c79a3d;
+  --color-linea: #dad5c8;
+  --color-texto: #22262e;
+  --color-texto-suave: #6b6459;
+
+  --fuente-titulos: 'Fraunces', Georgia, serif;
+  --fuente-texto: 'IBM Plex Sans', system-ui, sans-serif;
+  --fuente-numeros: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --radio: 4px;
+  --espacio-1: 0.25rem;
+  --espacio-2: 0.5rem;
+  --espacio-3: 1rem;
+  --espacio-4: 1.5rem;
+  --espacio-5: 2.5rem;
+}

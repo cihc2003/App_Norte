@@ -1,0 +1,9 @@
+@Norte_Api = http://localhost:5147
+
+### Catálogo de categorías (módulo de referencia)
+GET {{Norte_Api}}/api/categorias
+Accept: application/json
+
+### Solo categorías de gasto
+GET {{Norte_Api}}/api/categorias?tipo=Gasto
+Accept: application/json

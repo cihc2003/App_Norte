@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Norte.Abstracciones/Norte.Abstracciones.csproj" />
+    <Project Path="src/Norte.Api/Norte.Api.csproj" />
+    <Project Path="src/Norte.DA/Norte.DA.csproj" />
+    <Project Path="src/Norte.Flujo/Norte.Flujo.csproj" />
+    <Project Path="src/Norte.Reglas/Norte.Reglas.csproj" />
+    <Project Path="src/Norte.Servicios/Norte.Servicios.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Norte.Pruebas.Unitarias/Norte.Pruebas.Unitarias.csproj" />
+  </Folder>
+</Solution>
